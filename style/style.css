@@ -1,0 +1,850 @@
+.bg-img {
+  position: absolute;
+  width: 1536px;
+  height: 775px;
+  vertical-align: middle;
+}
+
+.rain1 {
+  top: -200px;
+  left: 10px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain2 {
+  top: -200px;
+  left: 20px;
+  width: px;
+  height: 50px;
+  opacity: 30%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain3 {
+  top: -200px;
+  left: 50px;
+  width: 1px;
+  height: 50px;
+  opacity: 60%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain4 {
+  top: -200px;
+  left: 60px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain5 {
+  top: -200px;
+  left: 90px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain6 {
+  top: -200px;
+  left: 120px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.7s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain7 {
+  top: -200px;
+  left: 210px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain8 {
+  top: -200px;
+  left: 230px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain9 {
+  top: -200px;
+  left: 280px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain10 {
+  top: -200px;
+  left: 290px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.9s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain11 {
+  top: -200px;
+  left: 380px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain12 {
+  top: -200px;
+  left: 390px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain13 {
+  top: -200px;
+  left: 470px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.7s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain14 {
+  top: -200px;
+  left: 500px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain15 {
+  top: -200px;
+  left: 510px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain16 {
+  top: -200px;
+  left: 540px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain17 {
+  top: -200px;
+  left: 620px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain18 {
+  top: -200px;
+  left: 650px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain19 {
+  top: -200px;
+  left: 680px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain20 {
+  top: -200px;
+  left: 720px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain21 {
+  top: -200px;
+  left: 800px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain22 {
+  top: -200px;
+  left: 820px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain23 {
+  top: -200px;
+  left: 840px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain24 {
+  top: -200px;
+  left: 900px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain25 {
+  top: -200px;
+  left: 940px;
+  width: px;
+  height: 50px;
+  opacity: 30%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain26 {
+  top: -200px;
+  left: 1000px;
+  width: 1px;
+  height: 50px;
+  opacity: 60%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain27 {
+  top: -200px;
+  left: 1010px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain28 {
+  top: -200px;
+  left: 1050px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain29 {
+  top: -200px;
+  left: 1070px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.7s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain30 {
+  top: -200px;
+  left: 1100px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain31 {
+  top: -200px;
+  left: 1180px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain32 {
+  top: -200px;
+  left: 1250px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain33 {
+  top: -200px;
+  left: 1300px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.9s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain34 {
+  top: -200px;
+  left: 1320px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain35 {
+  top: -200px;
+  left: 1380px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move1;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.7s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain36 {
+  top: -200px;
+  left: 1400px;
+  width: 1px;
+  height: 50px;
+  opacity: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain37 {
+  top: -200px;
+  left: 1450px;
+  width: 1px;
+  height: 50px;
+  opacity: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain38 {
+  top: -200px;
+  left: 1480px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move2;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+.rain39 {
+  top: -200px;
+  left: 1510px;
+  width: 1px;
+  height: 50px;
+  opacity: 70%;
+  background: linear-gradient(
+    to bottom,
+    rgba(143, 216, 255, 0.299),
+    rgb(143, 216, 255)
+  );
+  animation-name: move3;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  position: absolute;
+}
+@keyframes move1 {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 680px;
+  }
+}
+@keyframes move2 {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 710px;
+  }
+}
+@keyframes move3 {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 660px;
+  }
+}

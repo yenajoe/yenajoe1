@@ -1,0 +1,44 @@
+.title {
+  position: absolute;
+  top: 47px;
+  left: 500px;
+  width: 500px;
+  height: auto;
+
+  filter: brightness(0.95);
+}
+
+.title:hover {
+  animation-name: shine;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.titlemessage {
+  position: absolute;
+  width: auto;
+  height: 20px;
+  top: 8px;
+  left: 547px;
+  background-repeat: no-repeat;
+}
+
+.information {
+  position: absolute;
+  top: 585px;
+  left: 40px;
+  width: 84px;
+  height: auto;
+  filter: brightness(0.9);
+}
+
+@keyframes shine {
+  0% {
+    filter: brightness(1.1) drop-shadow(0 0 2.5px rgba(255, 255, 255, 0.8));
+  }
+  50% {
+    filter: brightness(1.5) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  }
+  100% {
+    filter: brightness(1.1) drop-shadow(0 0 2.5px rgba(255, 255, 255, 0.8));
+  }
+}
