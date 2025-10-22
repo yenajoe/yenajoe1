@@ -1,11 +1,11 @@
 .title {
   position: absolute;
-  top: 47px;
-  left: 500px;
+  top: 106px;
+  left: 100px;
   width: 500px;
   height: auto;
 
-  filter: brightness(0.95);
+  filter: brightness(0.85);
 }
 
 .title:hover {
@@ -17,8 +17,8 @@
   position: absolute;
   width: auto;
   height: 20px;
-  top: 8px;
-  left: 547px;
+  top: 62px;
+  left: 150px;
   background-repeat: no-repeat;
 }
 
@@ -36,7 +36,7 @@
     filter: brightness(1.1) drop-shadow(0 0 2.5px rgba(255, 255, 255, 0.8));
   }
   50% {
-    filter: brightness(1.5) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+    filter: brightness(1.5) drop-shadow(0 0 7px rgba(255, 255, 255, 0.8));
   }
   100% {
     filter: brightness(1.1) drop-shadow(0 0 2.5px rgba(255, 255, 255, 0.8));

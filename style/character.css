@@ -1,7 +1,7 @@
 .totoro {
   position: absolute;
   top: 250px;
-  left: 800px;
+  left: 1022px;
   filter: brightness(0.9);
 }
 
@@ -40,7 +40,7 @@
 .satsuki {
   position: absolute;
   top: 510px;
-  left: 610px;
+  left: 839px;
   filter: brightness(0.9);
 }
 .sa-bounce {
@@ -55,7 +55,7 @@
 .sign {
   position: absolute;
   top: 390px;
-  left: 400px;
+  left: 661px;
   filter: brightness(0.9);
 }
 .si-bounce {
@@ -70,30 +70,30 @@
 .sa-shadow {
   position: absolute;
   top: 726px;
-  left: 638px;
+  left: 852px;
   width: 118px;
   height: 20px;
-  background-color: rgba(0, 0, 0, 0.67);
+  background-color: rgba(27, 28, 25, 0.868);
   border-radius: 140px;
   filter: blur(10px);
 }
 .to-shadow {
   position: absolute;
   top: 727px;
-  left: 820px;
+  left: 1043px;
   width: 280px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.67);
+  background-color: rgba(27, 28, 25, 0.868);
   border-radius: 50px;
   filter: blur(15px);
 }
 .sign-shadow {
   position: absolute;
-  top: 731px;
-  left: 402px;
+  top: 734px;
+  left: 658px;
   width: 108px;
   height: 20px;
-  background-color: rgba(0, 0, 0, 0.67);
+  background-color: rgba(27, 28, 25, 0.868);
   border-radius: 50px;
   filter: blur(11px);
 }
