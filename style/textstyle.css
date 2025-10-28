@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SeoulAlrim_Heavy";
+  src: url("../asset/SeoulAlrim-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.textbox {
+  font-family: "SeoulAlrim_Heavy";
+  position: absolute;
+  top: 62px;
+  left: 254px;
+  font-size: 30px;
+  color: #cad7b8;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.text02 {
+  position: absolute;
+  top: 51px;
+  left: 433px;
+  font-size: 8px;
+  color: #cad7b8;
+  font-weight: 200;
+  opacity: 0.5;
+}

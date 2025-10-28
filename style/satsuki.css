@@ -1,0 +1,126 @@
+.satsuki01 {
+  position: absolute;
+  top: 520px;
+  left: 836px;
+  width: 170px;
+  height: auto;
+  filter: brightness(0.9);
+  svg {
+    overflow: visible;
+  }
+}
+
+#Left_leg {
+  transform-box: fill-box;
+  transform-origin: top;
+  overflow: visible;
+}
+.L_leg_move {
+  animation: L_leg_up 1.2s ease-in-out forwards;
+}
+@keyframes L_leg_up {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#Right_leg {
+  transform-box: fill-box;
+  transform-origin: top;
+  overflow: visible;
+}
+.R_leg_move {
+  animation: R_leg_up 1.2s ease-in-out forwards;
+}
+@keyframes R_leg_up {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-16deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#Sa_Umbrella {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.Sa_umbrella_move {
+  animation: Sa_umbrella_up 1.9s ease-in-out forwards;
+}
+@keyframes Sa_umbrella_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#Sa_Umbrella_behind {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.Sa_umbrella_B_move {
+  animation: Sa_umbrella_B_up 1.9s ease-in-out forwards;
+}
+@keyframes Sa_umbrella_B_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.sa-shadow {
+  position: absolute;
+  top: 726px;
+  left: 852px;
+  width: 118px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.615);
+  border-radius: 140px;
+  filter: blur(10px);
+}
+
+.sa-bounce {
+  animation-name: sa-bounceup;
+  animation-duration: 1.3s;
+  /* animation-timing-function: ease-in-out; */
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes sa-bounceup {
+  0% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, -0.01, 0.46, 0.99);
+  }
+
+  50% {
+    transform: translateY(-300px) rotate(-8.5deg);
+    animation-timing-function: cubic-bezier(0.51, 0, 0.46, 1.04);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}

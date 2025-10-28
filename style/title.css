@@ -13,14 +13,6 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-.titlemessage {
-  position: absolute;
-  width: auto;
-  height: 20px;
-  top: 62px;
-  left: 150px;
-  background-repeat: no-repeat;
-}
 
 .information {
   position: absolute;

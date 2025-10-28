@@ -1,0 +1,38 @@
+.sign01 {
+  position: absolute;
+  top: 353px;
+  left: 655px;
+  width: 120px;
+  height: auto;
+  filter: brightness(0.9);
+}
+.si-bounce {
+  animation-name: si-bounceup;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.sign-shadow {
+  position: absolute;
+  top: 734px;
+  left: 658px;
+  width: 108px;
+  height: 20px;
+  background-color: rgba(27, 28, 25, 0.868);
+  border-radius: 50px;
+  filter: blur(11px);
+}
+@keyframes si-bounceup {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-50px) rotate(2deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}

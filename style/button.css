@@ -1,0 +1,69 @@
+.totoro_icon {
+  position: absolute;
+  top: 691px;
+  left: 142px;
+  width: 30px;
+  height: auto;
+  filter: brightness(0.7);
+}
+.totoro_icon:hover {
+  animation-name: totoro_shine;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes totoro_shine {
+  0% {
+    filter: brightness(1.2) drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  }
+  100% {
+    filter: brightness(1.2) drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  }
+}
+.totoro_image {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0px) scale(0.9);
+  opacity: 0;
+}
+.totoro_icon:hover .totoro_image {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0) scale(1);
+}
+
+.satsuki_icon {
+  position: absolute;
+  top: 694px;
+  left: 198px;
+  width: 37px;
+  height: auto;
+  filter: brightness(0.7);
+}
+.satsuki_icon:hover {
+  animation-name: satsuki_shine;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes satsuki_shine {
+  0% {
+    filter: brightness(1.2) drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  }
+  100% {
+    filter: brightness(1.2) drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  }
+}
+.satsuki_image {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0px) scale(0.9);
+  opacity: 0;
+}
+.satsuki_icon:hover .satsuki_image {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0) scale(1);
+}

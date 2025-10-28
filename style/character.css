@@ -1,127 +1,24 @@
-.totoro {
-  position: absolute;
-  top: 250px;
-  left: 1022px;
-  filter: brightness(0.9);
-}
-
-.jump {
-  animation-name: jumpup;
-  animation-duration: 1.2s;
-  animation-iteration-count: 1;
-  /* animation-timing-function: ease-in-out; */
-  /* animation-delay: 1s;
-  animation-direction: normal; */
-  animation-fill-mode: forwards;
-}
-
 .dust {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -140px;
+  left: 834px;
 
   offset-path: path(
-    "M999.46 70.938232C1035.042 75.7577 1100.501 106.19547 1078.099 191.4678C1055.697 276.74 943.506 282.401 890.211 274.572C817.043 250.484 661.1321 222 622.8319 300.768C574.9565 399.229 658.9643 447.104 684.2569 448.007C709.55 448.911 794.46 436.264 811.623 468.783"
+    "M301.127 0.495605C336.657 5.31313 406.528 64.8468 387.962 151.036C374.353 214.218 270.028 241.857 195.496 256.322C101.521 274.56 21.757 301.343 4.03836 375.158C-21.5162 481.616 98.6839 494.356 129.476 507.197C146.48 514.288 204.802 546.633 210.891 601.162"
   );
 
   animation-name: move;
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-delay: 6s;
+  animation-delay: 1s;
   animation-direction: normal;
   animation-fill-mode: forwards;
 }
 
 .dust:hover {
-  filter: drop-shadow(0 0 5px rgba(255, 230, 85, 0.8));
+  filter: drop-shadow(0 0 5px rgba(124, 255, 115, 0.8));
 }
-
-.satsuki {
-  position: absolute;
-  top: 510px;
-  left: 839px;
-  filter: brightness(0.9);
-}
-.sa-bounce {
-  animation-name: sa-bounceup;
-  animation-duration: 1.3s;
-  /* animation-timing-function: ease-in-out; */
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.sign {
-  position: absolute;
-  top: 390px;
-  left: 661px;
-  filter: brightness(0.9);
-}
-.si-bounce {
-  animation-name: si-bounceup;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.sa-shadow {
-  position: absolute;
-  top: 726px;
-  left: 852px;
-  width: 118px;
-  height: 20px;
-  background-color: rgba(27, 28, 25, 0.868);
-  border-radius: 140px;
-  filter: blur(10px);
-}
-.to-shadow {
-  position: absolute;
-  top: 727px;
-  left: 1043px;
-  width: 280px;
-  height: 30px;
-  background-color: rgba(27, 28, 25, 0.868);
-  border-radius: 50px;
-  filter: blur(15px);
-}
-.sign-shadow {
-  position: absolute;
-  top: 734px;
-  left: 658px;
-  width: 108px;
-  height: 20px;
-  background-color: rgba(27, 28, 25, 0.868);
-  border-radius: 50px;
-  filter: blur(11px);
-}
-
-/* @keyframes move {
-  0% {
-    top: 65px;
-    left: 985px;
-  }
-
-  10% {
-    top: 150px;
-    left: 1060px;
-  }
-
-  30% {
-    top: 164px;
-    left: 828px;
-  }
-  60% {
-    top: 269px;
-    left: 662px;
-  }
-  100% {
-    top: 415px;
-    left: 800px;
-  }
-} */
 
 @keyframes move {
   from {
@@ -129,49 +26,5 @@
   }
   to {
     offset-distance: 100%;
-  }
-}
-@keyframes jumpup {
-  0% {
-    transform: translateY(0);
-    animation-timing-function: cubic-bezier(0, -0.01, 0.46, 0.99);
-  }
-  48% {
-    transform: translateY(-240px);
-  }
-  63% {
-    transform: translateY(-240px);
-    animation-timing-function: cubic-bezier(0.45, 0.1, 0.49, 0.95);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes sa-bounceup {
-  0% {
-    transform: translateY(0);
-    animation-timing-function: cubic-bezier(0, -0.01, 0.46, 0.99);
-  }
-
-  50% {
-    transform: translateY(-300px);
-    animation-timing-function: cubic-bezier(0.51, 0, 0.46, 1.04);
-  }
-
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-}
-@keyframes si-bounceup {
-  0% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-50px) rotate(2deg);
-  }
-
-  100% {
-    transform: translateY(0) rotate(0deg);
   }
 }

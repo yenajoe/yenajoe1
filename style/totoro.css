@@ -1,0 +1,149 @@
+.totoro01 {
+  position: absolute;
+  top: 240px;
+  left: 1024px;
+  width: 330px;
+  height: auto;
+  filter: brightness(0.9);
+  svg {
+    overflow: visible;
+  }
+}
+
+#Right_arm {
+  transform-box: fill-box;
+  transform-origin: top left;
+  overflow: visible;
+}
+.arm_move {
+  animation: arm_open 1.7s ease-in-out forwards;
+}
+@keyframes arm_open {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#Right_arm-2 {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.R_arm_move {
+  animation: R_arm_up 1.7s ease-in-out forwards;
+}
+@keyframes R_arm_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-17px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#Umbrella_behind {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.umbrella_behind_move {
+  animation: umbrella_behind_up 1.7s ease-in-out forwards;
+}
+@keyframes umbrella_behind_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#Umbrella {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.umbrella_move {
+  animation: umbrella_up 1.7s ease-in-out forwards;
+}
+@keyframes umbrella_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-13px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#Leaf {
+  transform-box: fill-box;
+  transform-origin: center;
+  overflow: visible;
+}
+.leaf_move {
+  animation: leaf_up 1.9s ease-in-out forwards;
+}
+@keyframes leaf_up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.to-shadow {
+  position: absolute;
+  top: 727px;
+  left: 1043px;
+  width: 280px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.571);
+  border-radius: 50px;
+  filter: blur(15px);
+}
+
+.jump {
+  animation-name: jumpup;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s;
+  animation-direction: normal; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes jumpup {
+  0% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, -0.01, 0.46, 0.99);
+  }
+  /* 48% {
+    transform: translateY(-280px);
+  } */
+  50% {
+    transform: translateY(-280px);
+    animation-timing-function: cubic-bezier(1, 0.05, 0.8, 1.2);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
