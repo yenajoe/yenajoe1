@@ -10,6 +10,7 @@
   }
 }
 
+/* 팔움직임 */
 #Right_arm {
   transform-box: fill-box;
   transform-origin: top left;
@@ -50,6 +51,7 @@
   }
 }
 
+/* 우산 움직임 */
 #Umbrella_behind {
   transform-box: fill-box;
   transform-origin: center;
@@ -90,6 +92,7 @@
   }
 }
 
+/* 머리 위 나뭇잎 움직임 */
 #Leaf {
   transform-box: fill-box;
   transform-origin: center;
@@ -110,6 +113,7 @@
   }
 }
 
+/* 토토로 그림자 */
 .to-shadow {
   position: absolute;
   top: 727px;
@@ -121,6 +125,7 @@
   filter: blur(15px);
 }
 
+/* 점프 애니메이션 */
 .jump {
   animation-name: jumpup;
   animation-duration: 1.5s;

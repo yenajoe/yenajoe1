@@ -1,3 +1,4 @@
+/* 표지판 */
 .sign01 {
   position: absolute;
   top: 353px;
@@ -6,6 +7,7 @@
   height: auto;
   filter: brightness(0.9);
 }
+/* 표지판 애니메이션 */
 .si-bounce {
   animation-name: si-bounceup;
   animation-duration: 0.8s;
@@ -14,6 +16,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+/* 그림자 */
 .sign-shadow {
   position: absolute;
   top: 734px;

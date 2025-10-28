@@ -10,6 +10,7 @@
   }
 }
 
+/* 왼쪽다리 움직임 */
 #Left_leg {
   transform-box: fill-box;
   transform-origin: top;
@@ -30,6 +31,7 @@
   }
 }
 
+/* 오른 다리 움직임 */
 #Right_leg {
   transform-box: fill-box;
   transform-origin: top;
@@ -50,6 +52,7 @@
   }
 }
 
+/* 우산 움직임 */
 #Sa_Umbrella {
   transform-box: fill-box;
   transform-origin: center;
@@ -90,6 +93,7 @@
   }
 }
 
+/* 그림자 */
 .sa-shadow {
   position: absolute;
   top: 726px;
@@ -100,7 +104,7 @@
   border-radius: 140px;
   filter: blur(10px);
 }
-
+/* 애니메이션 */
 .sa-bounce {
   animation-name: sa-bounceup;
   animation-duration: 1.3s;
